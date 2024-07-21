@@ -1,74 +1,215 @@
 /* font style */
 
+body {
+    margin: 0;
+    background-color: white;
+}
+
 .azeret-mono-normal {
-  font-family: "Azeret Mono", monospace;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 /* banner style */
 
-.banner-pic, .banner-btn{
+.banner-pic,
+.banner-btn {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    border: 0px;
+    width: 170px;
+    text-decoration: none;
+
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
-.header{
+
+.header {
     background-image: url('../assets/Hero-bg.png');
-    background-repeat:no-repeat;
-    background-position: top left,bottom right;
-    width: 1400px;
-    height: 652px;
-    margin-top: 157px;
-    }
-
-
-    /* development section */
-
-    .development{
-        width: 1140px;
-        height: 1393px;
-        background-color: #ADC8F7;
-        margin-top: 74px;
-        margin-left: 148px;
-        margin-right: 152px;
-
-    }
-    .purpose-development{
-        padding-top: 80px;
-        padding-left: 47px;
-        padding-right: 47px;
-        padding-bottom: 48px;
-    }
-
-.change-world{
-   padding-left: 97px;
-   padding-right: 97px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
-    .change-world-first{
-        display: flex;
-        
+
+
+/* development section */
+
+.development {
+    background-color: #9e9e9e29;
+    margin-top: 74px;
+    margin-left: 148px;
+    margin-right: 152px;
+
+}
+
+.purpose-development {
+    padding-top: 80px;
+    padding-left: 47px;
+    padding-right: 47px;
+    padding-bottom: 48px;
+}
+
+.dev-btn {
+    padding: 10px;
+}
+
+.change-world {
+    padding-left: 97px;
+    padding-right: 97px;
+}
+
+.change-world-first {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+/* my inspiration section */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+}
+
+.my-inspiration-content {
+    margin-top: 60px;
+}
+
+.inspiration-title {
+    font-weight: 800;
+    font-size: 32px;
+}
+
+.inspiration-description {
+    color: #0000009e;
+    font-size: 18px;
+}
+
+.video-container {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iframe-border-rds {
+    border: 1px solid #00000030;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.my-current-target {
+    margin-left: 148px;
+    margin-right: 152px;
+}
+
+.skill-container {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skill-card {
+    margin: 5px;
+    padding: 20px;
+    min-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+
+    a {
+        text-decoration: underline;
     }
-     .change-world-second{ 
-        display: flex;
-        
-    }
-    .change-world-third{ 
-        display: flex;
-        
+}
+
+.card-bg-1 {
+    background-color: #ff4c1e0d;
+}
+
+.card-bg-2 {
+    background-color: #004ce80d;
+}
+
+.card-bg-3 {
+    background-color: #ffdf000d;
+}
+
+.support-container {
+    margin-left: 148px;
+    margin-right: 152px;
+    margin-top: 60px;
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/handshake.jpg);
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    h2 {
+        text-align: center;
     }
 
-    /* my inspiration section */
-    .video-container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    p {
+        text-align: center;
     }
-    .skills{
-        display: flex;
-        justify-content: space-around;
+}
+
+.support-content {
+    color: white;
+}
+
+.support-input-container {
+    flex-direction: row;
+}
+
+.support-input {
+    padding: 15px;
+    min-width: 300px;
+    border-radius: 7px;
+    border: 0px;
+}
+
+.support-btn {
+    padding: 15px;
+    border-radius: 7px;
+    border: 0px;
+    font-weight: 700;
+}
+
+.footer {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 148px;
+    margin-right: 152px;
+    flex-direction: row;
+
+}
+
+.footer-social-icon {
+    flex-direction: row;
+
+    img {
+        width: 30px;
+        margin: 5px;
     }
+}
