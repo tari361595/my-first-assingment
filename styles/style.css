@@ -32,14 +32,22 @@
     .development{
         width: 1140px;
         height: 1393px;
-        background-color: #FFFFFF;
+        background-color: #ADC8F7;
         margin-top: 74px;
+        margin-left: 148px;
+        margin-right: 152px;
+
+    }
+    .purpose-development{
+        padding-top: 80px;
+        padding-left: 47px;
+        padding-right: 47px;
+        padding-bottom: 48px;
     }
 
 .change-world{
-    padding-left: 148px;
-    padding-right: 152px;
-    padding-top: 48px;
+   padding-left: 97px;
+   padding-right: 97px;
 }
     .change-world-first{
         display: flex;
@@ -52,4 +60,11 @@
     .change-world-third{ 
         display: flex;
         
+    }
+
+    /* my inspiration section */
+    .video-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
